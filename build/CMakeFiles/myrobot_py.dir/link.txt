@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -O3 -march=native -flto=auto -shared  -o myrobot_py.cpython-38-x86_64-linux-gnu.so CMakeFiles/myrobot_py.dir/src/my_arm_bind.cpp.o CMakeFiles/myrobot_py.dir/src/arm_bind.cpp.o CMakeFiles/myrobot_py.dir/src/utils.cpp.o 
