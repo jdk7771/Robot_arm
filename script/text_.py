@@ -87,10 +87,10 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
             target_q = ik_q.ravel() # 这样下一帧电机就会往这个新角度跑了
             # 4. 打印报告
             print(f"\n" + "="*50)
-            print(f"📊 IK 性能报告 | 仿真时间: {data.time:.2f}s")
-            print(f"⏱️  计算耗时: {dt:.4f} ms")
-            print(f"📍 位置误差: {p_err * 1000:.4f} mm")
-            print(f"📐 姿态误差: {o_err:.6f}")
+            print(f" IK 性能报告 | 仿真时间: {data.time:.2f}s")
+            print(f"  计算耗时: {dt:.4f} ms")
+            print(f" 位置误差: {p_err * 1000:.4f} mm")
+            print(f" 姿态误差: {o_err:.6f}")
             print(f"Joints: {ik_q.ravel()}")
             print("="*50)
 
